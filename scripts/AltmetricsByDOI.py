@@ -1,8 +1,8 @@
-# $1: List of DOIs, CSV
-# $2: File name to write to
-# Usage: DoiToCsv ListOfDOINumbersCSVTitle
+# $1: List of DOIs
+# $2: CSV file headers
+# $3: File name to write to
 
-#Example: python DoiToCsv.py "10.1007/s10669-015-9577-y,\\n10.3139/9783446431775.001,\\n10.1053/trre.2003.1" "altmetrics.csv"
+#Example: python AltmetricsByDOI.py "10.1007/s10669-015-9577-y,\\n10.3139/9783446431775.001,\\n10.1053/trre.2003.1" "doi,readers_count" "altmetrics.csv"
 
 import sys
 import subprocess
@@ -45,7 +45,7 @@ if __name__ == "__main__":
         print('''
             DoiToCsv v1.1
 
-            Usage: python DoiToCsv.py string_of_dois string_of_headers string_file_name
+            Usage: python AltmetricsByDOI.py string_of_dois string_of_headers string_file_name
 
             Takes in a list of DOIs and makes an Altmetric API request, parses
             the response, and writes the comma-separated list of values
@@ -59,13 +59,13 @@ if __name__ == "__main__":
             Altmetric API reference for a full list of valid csv headers.
                 (ex: doi,title,journal,pmid,uri,cohorts.pub,cohorts.sci,cohorts.com,cohorts.doc,altmetric_id)
 
-            string_file_name: file to be OVERWRITTEN.
+            string_file_name: file to be OVERWRITTEN. Includes .csv extension.
                 (ex: AltmetricsByDOI.csv)
 
 
             This script is made possible thanks to a number of resources, including:
                 jsonv by Paul Engel
-                Altmetric
+                Altmetric.com API
         ''')
     else:
         doi_to_csv(sys.argv[1], sys.argv[2], sys.argv[3])
