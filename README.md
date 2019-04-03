@@ -79,4 +79,4 @@ These tools are made possible thanks to:
 - Scholarly
 - Google Scholar  
 
-and more.
+and Stack Overflow.
