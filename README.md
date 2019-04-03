@@ -78,4 +78,5 @@ These tools are made possible thanks to:
 - Crossref
 - Scholarly
 - Google Scholar  
+
 and more.
