@@ -4,7 +4,8 @@ Resources mostly centered around analysis of paper statistics.
 
 
 ## Current tools:
----
+
+
 ### AltmetricsByDOI.py
 
 Fetches Altmetrics data via Altmetric API and exports in a .csv format.
@@ -28,7 +29,7 @@ where:
 - OutputFile is a string that names the file to be output to. It should have the extension .csv.  
   `AltmetricsByDOI.csv`
   
----
+
 ### CrossrefCitationsByDOI.py
 
 Gets Crossref cited-by counts by DOI and exports in a .csv format.
@@ -50,7 +51,7 @@ where:
 - Email is a string that contains the email to send with crossref requests. See [Crossref REST API page](https://github.com/CrossRef/rest-api-doc#good-manners--more-reliable-service) for more information.  
   `"example@example.com"`
 
----
+
 ### GScholarCitationsByDOI.py
 **Currently requires captcha** every dozen or so attempts; recommended use is not to.
 
@@ -67,3 +68,14 @@ where:
 - DOIs: See above.
 
 - OutputFile: See above.
+
+
+## Credits
+
+These tools are made possible thanks to:
+- jsonv by Paul Engel
+- Altmetric
+- Crossref
+- Scholarly
+- Google Scholar  
+and more.
