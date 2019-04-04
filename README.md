@@ -23,7 +23,7 @@ where:
 - CSV_headers is a comma-separated string of desired fields to be included in the output csv. All headers should be available through the [Altmetric API](https://api.altmetric.com/docs/call_doi.html).  
   `"doi,readers_count"`
   
-- OutputFile is a string that names the file to be output to. It should have the extension .csv.  
+- <a id="Usage_OutputFile">OutputFile</a> is a string that names the file to be output to. It should have the extension .csv.  
   `AltmetricsByDOI.csv`
   
 
@@ -43,7 +43,7 @@ where:
 
 - DOIs: See <a href="#Usage_DOIs">above</a>.
 
-- OutputFile: See above.
+- OutputFile: See <a href="#Usage_OutputFile">above</a>.
 
 - Email is a string that contains the email to send with crossref requests. See [Crossref REST API page](https://github.com/CrossRef/rest-api-doc#good-manners--more-reliable-service) for more information.  
   `"example@example.com"`
@@ -62,9 +62,9 @@ where:
 
 where:
 
-- DOIs: See above.
+- DOIs: See <a href="#Usage_DOIs">above</a>.
 
-- OutputFile: See above.
+- OutputFile: See <a href="#Usage_OutputFile">above</a>.
 
 
 ## Credits
