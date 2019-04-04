@@ -3,10 +3,7 @@ Resources mostly centered around analysis of paper statistics.
 
 
 
-## Current tools:
-
-
-### AltmetricsByDOI.py
+## AltmetricsByDOI.py
 
 Fetches Altmetrics data via Altmetric API and exports in a .csv format.
 
@@ -30,7 +27,7 @@ where:
   `AltmetricsByDOI.csv`
   
 
-### CrossrefCitationsByDOI.py
+## CrossrefCitationsByDOI.py
 
 Gets Crossref cited-by counts by DOI and exports in a .csv format.
 
@@ -52,7 +49,7 @@ where:
   `"example@example.com"`
 
 
-### GScholarCitationsByDOI.py
+## GScholarCitationsByDOI.py
 **Currently requires captcha** every dozen or so attempts; recommended use is not to.
 
 #### Requirements
