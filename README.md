@@ -50,7 +50,7 @@ where:
 
 
 ## GScholarCitationsByDOI.py
-**Currently requires captcha** every dozen or so attempts; recommended use is not to.
+**Currently requires captcha** every dozen or so attempts; recommended use is not to do so.
 
 #### Requirements
 
